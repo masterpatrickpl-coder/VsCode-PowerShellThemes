@@ -1,139 +1,42 @@
 {
-  "name": "PowerShell Blue",
+  "name": "PowerShell - Blue",
   "type": "dark",
   "colors": {
-    "editor.background": "#001433",
-    "editor.foreground": "#E0E0E0",
-    "activityBarBadge.background": "#0078D7",
-    "sideBarTitle.foreground": "#CCCCCC",
-    "statusBar.background": "#0050A0",
-    "statusBar.foreground": "#FFFFFF",
-    "statusBar.debuggingBackground": "#FF6600",
-    "statusBar.debuggingForeground": "#FFFFFF",
-    "terminal.background": "#001433",
-    "terminal.foreground": "#E0E0E0",
-    "terminal.ansiBlack": "#000000",
-    "terminal.ansiBlue": "#4488FF",
-    "terminal.ansiCyan": "#00DDDD",
-    "terminal.ansiGreen": "#00DD00",
-    "terminal.ansiMagenta": "#DD00DD",
-    "terminal.ansiRed": "#DD0000",
-    "terminal.ansiWhite": "#DDDDDD",
-    "terminal.ansiYellow": "#DDDD00",
-    "terminal.ansiBrightBlack": "#666666",
-    "terminal.ansiBrightBlue": "#66AAFF",
-    "terminal.ansiBrightCyan": "#66FFFF",
-    "terminal.ansiBrightGreen": "#66FF66",
-    "terminal.ansiBrightMagenta": "#FF66FF",
-    "terminal.ansiBrightRed": "#FF6666",
-    "terminal.ansiBrightWhite": "#FFFFFF",
-    "terminal.ansiBrightYellow": "#FFFF66"
+    "editor.background": "#1E1E2E",
+    "editor.foreground": "#D4D4D4",
+    "editorCursor.foreground": "#AEAFAD",
+    "editorLineNumber.foreground": "#858585"
   },
   "tokenColors": [
     {
-      "name": "Comments",
-      "scope": [
-        "comment",
-        "punctuation.definition.comment"
-      ],
+      "scope": "comment",
       "settings": {
-        "fontStyle": "italic",
-        "foreground": "#57A64A"
+        "foreground": "#6A9955",
+        "fontStyle": "italic"
       }
     },
     {
-      "name": "Strings",
-      "scope": [
-        "string",
-        "string.quoted.double.powershell",
-        "string.quoted.single.powershell"
-      ],
+      "scope": "string",
       "settings": {
-        "foreground": "#FFD68F"
+        "foreground": "#CE9178"
       }
     },
     {
-      "name": "Keywords",
-      "scope": [
-        "keyword",
-        "keyword.control",
-        "keyword.other.powershell"
-      ],
+      "scope": "keyword",
       "settings": {
         "foreground": "#569CD6"
       }
     },
     {
-      "name": "Variables",
-      "scope": [
-        "variable",
-        "variable.other.readwrite.powershell",
-        "variable.other.member.powershell"
-      ],
+      "scope": "variable",
       "settings": {
         "foreground": "#9CDCFE"
       }
     },
     {
-      "name": "Functions",
-      "scope": [
-        "entity.name.function",
-        "support.function",
-        "support.function.powershell"
-      ],
-      "settings": {
-        "foreground": "#DCDCAA"
-      }
-    },
-    {
-      "name": "Commands",
-      "scope": [
-        "support.function.powershell-core",
-        "support.function.powershell"
-      ],
-      "settings": {
-        "foreground": "#DCDCAA"
-      }
-    },
-    {
-      "name": "Types",
-      "scope": [
-        "storage.type",
-        "support.type",
-        "support.class"
-      ],
-      "settings": {
-        "foreground": "#4EC9B0"
-      }
-    },
-    {
-      "name": "Numbers",
-      "scope": [
-        "constant.numeric"
-      ],
+      "scope": "constant.numeric",
       "settings": {
         "foreground": "#B5CEA8"
-      }
-    },
-    {
-      "name": "Operators",
-      "scope": [
-        "keyword.operator",
-        "keyword.operator.comparison.powershell",
-        "keyword.operator.logical.powershell"
-      ],
-      "settings": {
-        "foreground": "#D4D4D4"
-      }
-    },
-    {
-      "name": "Parameters",
-      "scope": [
-        "variable.parameter",
-        "variable.parameter.powershell"
-      ],
-      "settings": {
-        "foreground": "#C586C0"
       }
     }
   ]

@@ -1,44 +1,28 @@
 {
-  "name": "powershell-themes",
-  "displayName": "PowerShell Themes",
-  "description": "A collection of color themes optimized for PowerShell development",
-  "version": "1.0.0",
-  "publisher": "masterpatrickpl",
+  "name": "vscode-powershell-themes",
+  "displayName": "PowerShell Color Themes",
+  "publisher": "masterpatrickpl-coder",
+  "description": "Some Themes that have PowerShell colouring",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.60.0"
   },
   "categories": [
     "Themes"
   ],
-  "keywords": [
-    "theme",
-    "powershell",
-    "color-theme",
-    "dark theme",
-    "light theme"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/masterpatrickpl-coder/VsCode-PowerShellThemes"
-  },
   "contributes": {
     "themes": [
       {
-        "label": "PowerShell Dark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/powershell-dark-color-theme.json"
-      },
-      {
-        "label": "PowerShell Light",
-        "uiTheme": "vs",
-        "path": "./themes/powershell-light-color-theme.json"
-      },
-      {
-        "label": "PowerShell Blue",
+        "label": "PowerShell - Blue",
         "uiTheme": "vs-dark",
         "path": "./themes/powershell-blue-color-theme.json"
       }
     ]
   },
-  "icon": "icon.png"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/masterpatrickpl-coder/VsCode-PowerShellThemes"
+  },
+  "publisherDisplayName": "masterpatrickpl-coder",
+  "enginesStrict": false
 }

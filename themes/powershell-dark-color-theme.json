@@ -1,0 +1,140 @@
+{
+  "name": "PowerShell Dark",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#012456",
+    "editor.foreground": "#EEEDF0",
+    "activityBarBadge.background": "#007ACC",
+    "sideBarTitle.foreground": "#BBBBBB",
+    "statusBar.background": "#001933",
+    "statusBar.foreground": "#FFFFFF",
+    "statusBar.debuggingBackground": "#CC6633",
+    "statusBar.debuggingForeground": "#FFFFFF",
+    "terminal.background": "#012456",
+    "terminal.foreground": "#EEEDF0",
+    "terminal.ansiBlack": "#000000",
+    "terminal.ansiBlue": "#0066FF",
+    "terminal.ansiCyan": "#00FFFF",
+    "terminal.ansiGreen": "#00FF00",
+    "terminal.ansiMagenta": "#FF00FF",
+    "terminal.ansiRed": "#FF0000",
+    "terminal.ansiWhite": "#FFFFFF",
+    "terminal.ansiYellow": "#FFFF00",
+    "terminal.ansiBrightBlack": "#808080",
+    "terminal.ansiBrightBlue": "#3399FF",
+    "terminal.ansiBrightCyan": "#66FFFF",
+    "terminal.ansiBrightGreen": "#66FF66",
+    "terminal.ansiBrightMagenta": "#FF66FF",
+    "terminal.ansiBrightRed": "#FF6666",
+    "terminal.ansiBrightWhite": "#FFFFFF",
+    "terminal.ansiBrightYellow": "#FFFF66"
+  },
+  "tokenColors": [
+    {
+      "name": "Comments",
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#00FF00"
+      }
+    },
+    {
+      "name": "Strings",
+      "scope": [
+        "string",
+        "string.quoted.double.powershell",
+        "string.quoted.single.powershell"
+      ],
+      "settings": {
+        "foreground": "#FFD700"
+      }
+    },
+    {
+      "name": "Keywords",
+      "scope": [
+        "keyword",
+        "keyword.control",
+        "keyword.other.powershell"
+      ],
+      "settings": {
+        "foreground": "#00FFFF"
+      }
+    },
+    {
+      "name": "Variables",
+      "scope": [
+        "variable",
+        "variable.other.readwrite.powershell",
+        "variable.other.member.powershell"
+      ],
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "name": "Functions",
+      "scope": [
+        "entity.name.function",
+        "support.function",
+        "support.function.powershell"
+      ],
+      "settings": {
+        "foreground": "#87CEEB"
+      }
+    },
+    {
+      "name": "Commands",
+      "scope": [
+        "support.function.powershell-core",
+        "support.function.powershell"
+      ],
+      "settings": {
+        "foreground": "#87CEEB"
+      }
+    },
+    {
+      "name": "Types",
+      "scope": [
+        "storage.type",
+        "support.type",
+        "support.class"
+      ],
+      "settings": {
+        "foreground": "#00CED1"
+      }
+    },
+    {
+      "name": "Numbers",
+      "scope": [
+        "constant.numeric"
+      ],
+      "settings": {
+        "foreground": "#FF6EB4"
+      }
+    },
+    {
+      "name": "Operators",
+      "scope": [
+        "keyword.operator",
+        "keyword.operator.comparison.powershell",
+        "keyword.operator.logical.powershell"
+      ],
+      "settings": {
+        "foreground": "#FF8C00"
+      }
+    },
+    {
+      "name": "Parameters",
+      "scope": [
+        "variable.parameter",
+        "variable.parameter.powershell"
+      ],
+      "settings": {
+        "foreground": "#FFB6C1"
+      }
+    }
+  ]
+}

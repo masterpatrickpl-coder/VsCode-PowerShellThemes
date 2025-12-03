@@ -3,7 +3,7 @@
   "displayName": "PowerShell Themes",
   "description": "A collection of color themes optimized for PowerShell development",
   "version": "1.0.0",
-  "publisher": "masterpatrickpl",
+  "publisher": "kamikaze-development",
   "engines": {
     "vscode": "^1.60.0"
   },
